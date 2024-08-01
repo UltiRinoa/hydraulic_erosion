@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0qep5w1xd4ej"]
+
+[ext_resource type="Script" path="res://scripts/ComputeHelper.cs" id="1_jb6ur"]
+[ext_resource type="RDShaderFile" uid="uid://djoqpu4714hdo" path="res://shaders/compute_test.glsl" id="2_bubgk"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_jb6ur")
+ShaderFile = ExtResource("2_bubgk")

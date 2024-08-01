@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "/Users/xmaczone/Documents/Prj/godot_master/bin/godot.macos.editor.x86_64.mono",
+            "program": "${env:GODOT}",
             "args": [
                 "--path",
                 "${workspaceRoot}"
@@ -18,7 +18,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "/Users/xmaczone/Documents/Prj/godot_master/bin/godot.macos.editor.x86_64.mono",
+            "program": "${env:GODOT}",
             "args": [
                 "--path",
                 "${workspaceRoot}",
@@ -45,7 +45,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "/Users/xmaczone/Documents/Prj/godot_master/bin/godot.macos.editor.x86_64.mono",
+            "program": "${env:GODOT}",
             "args": [
                 "--path",
                 "${workspaceRoot}",
